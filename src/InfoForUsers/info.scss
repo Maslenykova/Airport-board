@@ -1,0 +1,24 @@
+.info-for-users {
+  display: flex;
+  background-color: rgb(237, 231, 231);
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  padding: 30px;
+
+  &__text {
+    display: block;
+    background-color: yellow;
+    color: black;
+    height: 200px;
+    width: 700px;
+    // text-align: center;
+    font-size: 20px;
+    // margin: auto;
+    text-decoration: none;
+    border-radius: 20px 120px 20px 20px;
+    padding: 30px;
+    padding-right: 150px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,59 @@
+.main-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  //   background-color: #d17d10;
+  background-image: url(https://iev.aero/images/main.jpg);
+  margin: auto;
+  flex-direction: column;
+  &_title {
+    text-transform: uppercase;
+    text-align: center;
+    // position: relative;
+    // z-index: 1;
+    font-weight: 100;
+    font-size: 60px;
+    color: white;
+  }
+}
+
+.btn {
+  border-radius: 0px 50px 10px 0px;
+  color: white;
+  background-color: #1eb7ee;
+  width: 170px;
+  height: 60px;
+  border: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+
+  &:hover {
+    border-radius: 0 30px 10px 0;
+  }
+}
+
+.search {
+  width: 440px;
+  height: 60px;
+}
+
+.search__btn {
+  margin: 20px 20px 0;
+  width: 270px;
+  height: 60px;
+  padding: 15px;
+  border: 0;
+  border-radius: 10px 50px 10px 10px;
+  color: #1eb7ee;
+  background-color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+
+  &:hover {
+    color: white;
+    background-color: #1eb7ee;
+    border-radius: 10px 30px 10px 10px;
+  }
+}
